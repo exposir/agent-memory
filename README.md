@@ -2,6 +2,8 @@
 
 # agent-memory
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **跨 agent 会话记忆检索器**
 
 把 Claude Code、Codex、opencode、Qoder、pi、dsh、Antigravity 的历史消息索引成一份可检索的证据库；
