@@ -1,0 +1,51 @@
+{
+  "name": "agent-memory",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Local cross-agent session memory: index Claude Code / Codex / opencode / Qoder / pi / dsh / Antigravity transcripts into one SQLite FTS5 store and recall past decisions",
+  "bin": {
+    "mem": "bin/mem.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "mem": "node bin/mem.js",
+    "build": "tsc -p tsconfig.build.json",
+    "index": "tsx src/index-cli.ts",
+    "bench:build": "tsx bench/build-synthetic.ts && tsx bench/build-bench.ts",
+    "bench:queries": "tsx bench/build-queries.ts",
+    "bench:validate": "tsx bench/validate.ts",
+    "bench:search": "tsx bench/build-eval-db.ts && tsx bench/eval-search.ts",
+    "test": "tsx --test test/**/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "bench:synthetic": "tsx bench/build-synthetic.ts",
+    "bench:eval-db": "tsx bench/build-eval-db.ts",
+    "bench:methods": "tsx bench/eval-methods.ts"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.1.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exposir/agent-memory.git"
+  },
+  "keywords": [
+    "agent",
+    "memory",
+    "sqlite",
+    "fts5",
+    "claude-code",
+    "codex",
+    "session",
+    "recall",
+    "cli"
+  ]
+}

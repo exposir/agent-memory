@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-17T07:16:15.980Z",
+  "corpusCutoff": "2026-01-15T00:00:00.000Z",
+  "counts": {
+    "positives": 30,
+    "codex": 25,
+    "claude": 5,
+    "variants": 150,
+    "known": 20,
+    "negatives": 15,
+    "holderEntries": 50,
+    "queryCases": 315
+  },
+  "sha256": {
+    "positives.json": "27137ab1723bac33c15cb2eff1bc19b7c26ce171824550d65e0f81fb8132f182",
+    "known.json": "8a67a64ce05563996c500507ea91ab28f234285c546d58e4bb3c6c780862f70a",
+    "negatives.json": "c644a1c588f4a0562d832cc041129c26f74f25fb67c412836cd7b28682b8c39f",
+    "queries.json": "2576e2e4ae9ed30a45762ae0c3a6c1fc89bc184de0de9a4800b18f16ae9d8d61",
+    "holder-snapshot.json": "0eeee02ce7897bedcc116f2c9492be86acffb685d8abdb99947688729bc7b099"
+  }
+}

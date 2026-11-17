@@ -1,0 +1,9 @@
+{
+  "cutoff": "2026-01-15T00:00:00.000Z",
+  "roots": {
+    "claude": ".bench-tmp/synthetic/claude",
+    "codex": ".bench-tmp/synthetic/codex",
+    "opencode": ".bench-tmp/synthetic/opencode.db"
+  },
+  "sessions": 65
+}

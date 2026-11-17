@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+node_modules
+node_modules/
+dist/
+.idea/
+.vscode/
+*.db
+*.db-wal
+*.db-shm
+.bench-tmp/
+
+# 评测运行产物（由 npm run bench:* 生成）
+bench/search-report.json
+bench/method-report.json
+bench/validation.json

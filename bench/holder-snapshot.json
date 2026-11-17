@@ -1,0 +1,1139 @@
+{
+  "schemaVersion": 1,
+  "corpusCutoff": "2026-01-15T00:00:00.000Z",
+  "entries": {
+    "addd5d8e7b67396770b5c8dc355370a68e8018b729b2cc90b4180dd75e920945": {
+      "terms": [
+        "codex",
+        "agents/skills",
+        "agents",
+        "skills",
+        "codex/skill",
+        "skill",
+        "当前",
+        "前读",
+        "读取",
+        "完全",
+        "全同",
+        "同步"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000001"
+      ]
+    },
+    "601475dddac94f396a1d481193916e8a39f903be87da24232f010d66dd0665ed": {
+      "terms": [
+        "codex",
+        "pi",
+        "接入",
+        "默认",
+        "认使",
+        "使用"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000002"
+      ]
+    },
+    "a869c94214d7e887caf48d62d3e032b2cdbaf55019840834d163238383d2a74d": {
+      "terms": [
+        "work/acme/harness/skills/daily-feed",
+        "work",
+        "acme",
+        "harness",
+        "skills",
+        "daily",
+        "feed",
+        "数据",
+        "据源",
+        "源放",
+        "里面",
+        "面吧"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "ae71bcd3c2e62605dad94dce5707c989aa76bc1a8b4aca11bcbbc93549466799": {
+      "terms": [
+        "work/acme/harness/skills/daily-feed/data/news.ts",
+        "work",
+        "acme",
+        "harness",
+        "skills",
+        "daily",
+        "feed",
+        "data",
+        "news",
+        "ts",
+        "个数",
+        "数据",
+        "全棉"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "ff4df91b1e33bfc86698faf506e4ff35b0de439dd383ff9721e144975f59614a": {
+      "terms": [
+        "json",
+        "数据",
+        "以重",
+        "重构",
+        "者怎",
+        "么处",
+        "处理",
+        "理下",
+        "者用",
+        "然以",
+        "以后",
+        "后数",
+        "据量",
+        "量大",
+        "很尴",
+        "尴尬",
+        "尬吧"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "3bcd755a3587aa8e8d01394d49619055f72ec0995f5dd1303ae0ba16ce813e20": {
+      "terms": [
+        "github",
+        "dev",
+        "example.test",
+        "example",
+        "test",
+        "acme-dev",
+        "acme",
+        "处理",
+        "理配",
+        "配置",
+        "置下",
+        "私有",
+        "有仓",
+        "仓库"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "2c1557e4f344a650627ea8aa1e6b3b3dcc970a7303c7c79fb5cffb9e5a46945d": {
+      "terms": [
+        "daily-feed",
+        "daily",
+        "feed",
+        "harness",
+        "skill",
+        "nova-dail",
+        "nova",
+        "dail",
+        "看看",
+        "看处",
+        "处理",
+        "理下",
+        "以自",
+        "自由",
+        "由评",
+        "评估",
+        "估处",
+        "理冲",
+        "冲突",
+        "后说",
+        "个目",
+        "目录",
+        "应该",
+        "该放",
+        "里面"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "5549fe31cda832d8422bb860741316705546fc645a9b0fdd86fde52029d268cd": {
+      "terms": [
+        "样式",
+        "式比",
+        "比之",
+        "之前",
+        "粗糙",
+        "糙很",
+        "很多",
+        "只改",
+        "改内",
+        "内容",
+        "改变",
+        "变之"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "e51e09328d165254cf2446a772ced66b87b6802995b7af3fb2384291d16a4879": {
+      "terms": [
+        "daily-feed",
+        "daily",
+        "feed",
+        "想用",
+        "用定",
+        "定时",
+        "时任",
+        "任务",
+        "务获",
+        "获取",
+        "取新",
+        "新闻",
+        "闻并",
+        "并部",
+        "部署",
+        "直接",
+        "接触",
+        "触发",
+        "以吗"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "5212eb3a4e1257522eb57ecbbb9f01fee0373067bfbedcd289c349d9145b916f": {
+      "terms": [
+        "daily-feed",
+        "daily",
+        "feed",
+        "获取",
+        "取新",
+        "新闻",
+        "力提",
+        "提出",
+        "出来",
+        "后续"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000003"
+      ]
+    },
+    "b21e3a905560dcdd1b824d32f0b98c97197edfd780286d6ef02c52473748cf37": {
+      "terms": [
+        "technews",
+        "newsinsight",
+        "更新"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000004"
+      ]
+    },
+    "8c41d1eded4bf533608803cdceed913a60cb496a4793fb0ffea6284c8daa96fa": {
+      "terms": [
+        "tech-news",
+        "tech",
+        "news",
+        "更新",
+        "网页"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000005"
+      ]
+    },
+    "451a49610b4ba9ae34e2ee37dcacd896696e3cd762e16759e5b2e4157a5f4b88": {
+      "terms": [
+        "15",
+        "31",
+        "scheduled_task_run_logs",
+        "scheduled",
+        "task",
+        "run",
+        "logs",
+        "running",
+        "news",
+        "local/state/daily-feed-news/lock",
+        "local",
+        "state",
+        "daily",
+        "feed",
+        "lock",
+        "1416",
+        "edition",
+        "01.11",
+        "01",
+        "11",
+        "12",
+        "16",
+        "外部",
+        "部写",
+        "写入",
+        "还没",
+        "没结",
+        "结束",
+        "定时",
+        "时轮",
+        "轮仍",
+        "状态",
+        "侧还",
+        "还持",
+        "持有",
+        "最新",
+        "新数",
+        "数据",
+        "据已"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000006"
+      ]
+    },
+    "c83f1894dc385eb75d7d118f19829de4a544e414c504ef5b2bad1873c601034c": {
+      "terms": [
+        "out/plan/billing-admin/verify-r1.json",
+        "out/plan/billing-admin/verify-r",
+        "1.json",
+        "plan",
+        "billing",
+        "admin",
+        "verify",
+        "r1",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000007"
+      ]
+    },
+    "2e4154e5669688ec2648c9ab3e2efa7e1c03084fb9214547137c96dceeb877c2": {
+      "terms": [
+        "out/plan/paymentservice/verify-r1.json",
+        "out/plan/paymentservice/verify-r",
+        "1.json",
+        "plan",
+        "paymentservice",
+        "verify",
+        "r1",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000008"
+      ]
+    },
+    "ca1eb78a32e382c397360b5823b7460b78eac93888c2c5c0c3f6d95922c98426": {
+      "terms": [
+        "out/plan/gateway/verify-r1.json",
+        "out/plan/gateway/verify-r",
+        "1.json",
+        "plan",
+        "gateway",
+        "verify",
+        "r1",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000009"
+      ]
+    },
+    "476cafa3919bc97ae116651a06068c1f1e091535f532f440eddef32c83785c7e": {
+      "terms": [
+        "out/plan/portal-center/verify-r1.json",
+        "out/plan/portal-center/verify-r",
+        "1.json",
+        "plan",
+        "portal",
+        "center",
+        "verify",
+        "r1",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-00000000000a"
+      ]
+    },
+    "c8a742ae834e706af448fa33f8229a1481ec57770cab7228b7b0f791cd215071": {
+      "terms": [
+        "out/plan/data-platform/verify-r1.json",
+        "out/plan/data-platform/verify-r",
+        "1.json",
+        "plan",
+        "data",
+        "platform",
+        "verify",
+        "r1",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-00000000000b"
+      ]
+    },
+    "0ecd79305f60578157b60cef8ead8f7e15332c38ac5b97ad9dd2ee9546df35ef": {
+      "terms": [
+        "out/plan/ledger-ai/verify-r2.json",
+        "out/plan/ledger-ai/verify-r",
+        "2.json",
+        "plan",
+        "ledger",
+        "ai",
+        "verify",
+        "r2",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-00000000000c"
+      ]
+    },
+    "f92c07b3c66328d4087170cc6f1c72bbb5950855c89ca908ae67e013f9232b36": {
+      "terms": [
+        "out/plan/paymentserviceplus/verify-r2.json",
+        "out/plan/paymentserviceplus/verify-r",
+        "2.json",
+        "plan",
+        "paymentserviceplus",
+        "verify",
+        "r2",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-00000000000d"
+      ]
+    },
+    "ef9c325cebcd2a4bfd2a7889e2ae1fb29f0bb4f2ad7279c66237dbeb9b178c42": {
+      "terms": [
+        "output/plan/origix/verify-r1.json",
+        "output/plan/origix/verify-r",
+        "1.json",
+        "output",
+        "plan",
+        "origix",
+        "verify",
+        "r1",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-00000000000e"
+      ]
+    },
+    "5e4b6b0c06d146eebf6dda2543a1907d98c3cbc80e9f3f93b1de80971f0b3a6e": {
+      "terms": [
+        "p0/p1",
+        "0/p",
+        "p0",
+        "p1",
+        "当前",
+        "前进",
+        "进度",
+        "度基",
+        "基础",
+        "础上",
+        "上收",
+        "收尾",
+        "优先",
+        "先给",
+        "给出",
+        "出已",
+        "已确",
+        "确认",
+        "行号",
+        "号证",
+        "证据",
+        "必继",
+        "继续",
+        "续扩",
+        "扩大",
+        "大范",
+        "范围"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-00000000000f"
+      ]
+    },
+    "8aa95f8519fbf473cfd64c9ad0396dc0ea51fce1ef5d78bc88219c808f2a43a3": {
+      "terms": [
+        "p0/p1/p2",
+        "0/p",
+        "1/p",
+        "p0",
+        "p1",
+        "p2",
+        "当前",
+        "前进",
+        "进度",
+        "度基",
+        "基础",
+        "础上",
+        "上收",
+        "收尾",
+        "优先",
+        "先给",
+        "给出",
+        "出已",
+        "已确",
+        "确认",
+        "行号",
+        "号证",
+        "证据",
+        "必继",
+        "继续",
+        "续扩",
+        "扩大",
+        "大范",
+        "范围"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-00000000000f"
+      ]
+    },
+    "306700bc21a58ac210062745f2f43b39bc5736df8b197ff2285f603978c45dfb": {
+      "terms": [
+        "out/plan/billing-admin/verify-r2.json",
+        "out/plan/billing-admin/verify-r",
+        "2.json",
+        "plan",
+        "billing",
+        "admin",
+        "verify",
+        "r2",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000007"
+      ]
+    },
+    "34050c02a37aadf3b996d1ead92e8ee96d33bc2d18e218bdbcf2aed3d97c4d5e": {
+      "terms": [
+        "out/plan/paymentservice/verify-r2.json",
+        "out/plan/paymentservice/verify-r",
+        "2.json",
+        "plan",
+        "paymentservice",
+        "verify",
+        "r2",
+        "json",
+        "独立",
+        "立验",
+        "验证",
+        "证第",
+        "轮给",
+        "给出",
+        "修复",
+        "复清",
+        "清单",
+        "请逐",
+        "逐条",
+        "条处",
+        "处理"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000008"
+      ]
+    },
+    "759ca7f3b5c332f2444b838a24d3653eaf94c294870de0819c95cf2ef809c23f": {
+      "terms": [
+        "内部",
+        "部办",
+        "办公",
+        "公网",
+        "网关",
+        "里有",
+        "有两",
+        "两个",
+        "个账",
+        "账号",
+        "应该",
+        "该分",
+        "分别",
+        "别看",
+        "看看",
+        "看支",
+        "支持",
+        "持哪",
+        "哪些",
+        "些模",
+        "模型"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000010"
+      ]
+    },
+    "d52ebc15ca324413205594af0facf30f263495f1adfba1991b39cc7ab6664d41": {
+      "terms": [
+        "three.js",
+        "three",
+        "js",
+        "3d",
+        "新增",
+        "增个",
+        "个测",
+        "测试",
+        "试项",
+        "项目",
+        "请使",
+        "使用",
+        "创作",
+        "作一",
+        "个主",
+        "主题",
+        "题为",
+        "星轨",
+        "轨之",
+        "之外",
+        "交互",
+        "互式",
+        "式网",
+        "网页"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "47dc6dc74682019418f9fbb54b3d8f29f3b12eaaab02acf4481de0cb82e66779": {
+      "terms": [
+        "claudecode",
+        "codex",
+        "没看",
+        "看明",
+        "明白",
+        "之类",
+        "区别"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000012"
+      ]
+    },
+    "9c6256afb0659e675568e9d4147cb5054717fe46ddd7acbd8acc83b2281c0335": {
+      "terms": [
+        "gpu",
+        "基于",
+        "个图",
+        "图做",
+        "做成",
+        "成一",
+        "个页",
+        "页面",
+        "面怎",
+        "么样",
+        "仔细",
+        "细介",
+        "介绍",
+        "绍古",
+        "古城",
+        "城皇",
+        "皇城",
+        "样式",
+        "图片",
+        "片差",
+        "多美",
+        "美观",
+        "进行",
+        "行页",
+        "面渲",
+        "渲染"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000013"
+      ]
+    },
+    "c7c58dc11652bfd5742a32b61fcd61f8429a1aaa560d5c6efa4f14ff91a63b4a": {
+      "terms": [
+        "ai",
+        "coding",
+        "agent",
+        "app",
+        "设计",
+        "桌面",
+        "面终",
+        "终端",
+        "端还"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000014"
+      ]
+    },
+    "c340f05a1991459a978a164b3d48eadfd5b778a037348fec8cc4b427719e6402": {
+      "terms": [
+        "gateway",
+        "0.1.3727",
+        "3727",
+        "gateway-claude",
+        "claude",
+        "v0.1.2557",
+        "0.1.2557",
+        "v0",
+        "2557",
+        "sha256",
+        "sha",
+        "256",
+        "7816c4e0",
+        "7816",
+        "700",
+        "release",
+        "升级"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "a4999b3f47dc34d5e0b3da709e659b3c3907c1c0a207515206d51db482ba9e11": {
+      "terms": [
+        "internal-pages",
+        "internal",
+        "pages",
+        "star-beyond-20260109",
+        "star",
+        "beyond",
+        "20260109",
+        "star-beyond",
+        "retired",
+        "private/research/star-beyond-20260109",
+        "private",
+        "research",
+        "星轨",
+        "轨之",
+        "之外",
+        "入口",
+        "收敛"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "73fda27174ec9151d7f6ed919d22798fb6e1d3cb49883b894da9b52473d61922": {
+      "terms": [
+        "star-beyond",
+        "star",
+        "beyond",
+        "codex",
+        "deepseek",
+        "deep",
+        "seek",
+        "flash",
+        "max",
+        "1m",
+        "评分"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "d36ab1d802ed5eb4b0e258c31fd899168c11b2646591498d73923c602db63878": {
+      "terms": [
+        "opencode",
+        "mac",
+        "gateway",
+        "deepseek",
+        "group",
+        "1.19.5",
+        "19",
+        "pure",
+        "切换",
+        "冒烟"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "e55b1786600c8d9d06c302a4e186d43ff0e0dd822ad9e729a7b76214a8d5b304": {
+      "terms": [
+        "recallkit",
+        "recallkit-dev",
+        "dev",
+        "0.7",
+        "43",
+        "agents",
+        "local/share/recallkit/notes.jsonl",
+        "local",
+        "share",
+        "notes",
+        "jsonl"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "07adc87e058880cf9013ffa14109a2ce67b3ac2237afd8c24bed55cae3a22d14": {
+      "terms": [
+        "agent-memory",
+        "agent",
+        "memory",
+        "github",
+        "readme",
+        "github.com/exposir/agent-memory.git",
+        "com",
+        "exposir",
+        "git",
+        "公开",
+        "开仓",
+        "仓库"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "70a7d2d2fbfe04396206d7aa05b80c6ce375e46db700ebaa7fe6d6c4a343bf49": {
+      "terms": [
+        "gateway",
+        "106",
+        "700",
+        "release",
+        "7.3",
+        "多久",
+        "久发",
+        "发版",
+        "版一",
+        "一次",
+        "日均",
+        "分钟"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "14fb6a497125cf7af54d7dc2b696bd439b9bebe3874c7d2e839417001286d287": {
+      "terms": [
+        "codex",
+        "session",
+        "rollout",
+        "jsonl",
+        "item_completed",
+        "item",
+        "completed",
+        "usermessage",
+        "user",
+        "message",
+        "agentmessage",
+        "agent",
+        "commandexecution",
+        "command",
+        "execution",
+        "event_msg",
+        "event",
+        "msg",
+        "payload.item.type",
+        "payload",
+        "type",
+        "格式"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "19d54b18b6c33423d70b942f2e7435c2dbaff095ff4505d85c052f74f3f9dc77": {
+      "terms": [
+        "wrangler",
+        "npx",
+        "cache",
+        "darwin",
+        "workerd",
+        "workerd-darwin-arm64",
+        "workerd-darwin-arm",
+        "64",
+        "arm64",
+        "linux",
+        "arm",
+        "权限"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "166939699d1f75ad378c7edc65acfc63854615a70a359b4388b22048995f9855": {
+      "terms": [
+        "cf",
+        "301",
+        "middleware",
+        "retired",
+        "research/star-beyond",
+        "research",
+        "star",
+        "beyond",
+        "s-maxage",
+        "maxage",
+        "tombstone",
+        "页面",
+        "旧地",
+        "地址"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "d16b9155455df827d43d1928b1dfa1e8ff94f50a437ccf76e28b6a4755dc7af5": {
+      "terms": [
+        "internal-pages",
+        "internal",
+        "pages",
+        "is_internal-pages_repo",
+        "repo",
+        "git",
+        "worktree",
+        "fix/deploy-internal-pages-cf-worktree",
+        "fix",
+        "deploy",
+        "cf",
+        "hosts.py",
+        "hosts",
+        "py",
+        "64",
+        "目录"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000016"
+      ]
+    },
+    "8bde60694a7322fb29d02e7da5613abb47efce25baa89c573151daebc178df3c": {
+      "terms": [
+        "sqlite",
+        "sq",
+        "lite",
+        "fts5",
+        "fts",
+        "trigram",
+        "中文",
+        "时间"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "3b5feefdca2c959c9755c60e5f5df75ddd31858b616c0517292a9cf885f26ccc": {
+      "terms": [
+        "jieba",
+        "0.42.1",
+        "42",
+        "fts5",
+        "fts",
+        "中文",
+        "文分",
+        "分词"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "ef3e20208e02d4bea267bf570c5d62aefba8ce1e1c18e5a5f2d136841af85b53": {
+      "terms": [
+        "anthropic",
+        "components",
+        "agent",
+        "memory",
+        "dreaming",
+        "413",
+        "文件"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "438e5b7c3393a8ba708018771a1328c10da79a7968a853e0d3e816bbfeaaca10": {
+      "terms": [
+        "recallkit",
+        "hook-prompt",
+        "hook",
+        "prompt",
+        "20",
+        "cooldown",
+        "分钟"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "2d9019688b43a78a43a5e81f574031445847c02bba2c06eabeeb343f8d06a36b": {
+      "terms": [
+        "bm25",
+        "bm",
+        "25",
+        "decisionboost",
+        "decision",
+        "boost",
+        "2.0",
+        "promotednoteboost",
+        "promoted",
+        "note",
+        "1.25"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "4d31b43d064672bbc2dc967dd30c95506f572e56157fa4d119286bbe7b2b2693": {
+      "terms": [
+        "内部",
+        "部助",
+        "助手",
+        "手插",
+        "插件",
+        "高风",
+        "风险",
+        "险软",
+        "软件",
+        "卸载"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "c6609dc79ad02cb4f853553aae2b12ea87d6cc3fbd0f0b9a20f7df5196fd7116": {
+      "terms": [
+        "agy",
+        "gemini",
+        "argon",
+        "medium",
+        "native",
+        "model",
+        "默认",
+        "认模",
+        "模型",
+        "原生",
+        "生登",
+        "登录",
+        "录态"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "aa12edef9bdebd812d0314f9d3ff01b3f7e03b62828131e7d28dad4d78259616": {
+      "terms": [
+        "opencode-agy-cli-auth",
+        "opencode",
+        "agy",
+        "cli",
+        "auth",
+        "插件"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    },
+    "460b67f33fa7399680d41e97dcfa318d6ab282235693d488a049fb01f5b86c30": {
+      "terms": [
+        "internalassistant.app",
+        "internal",
+        "assistant.app",
+        "internalassistant",
+        "app",
+        "高风",
+        "风险",
+        "险软",
+        "软件",
+        "件阻",
+        "阻断",
+        "断提",
+        "提醒"
+      ],
+      "holders": [
+        "00000000-0000-4000-8000-000000000015"
+      ]
+    }
+  }
+}

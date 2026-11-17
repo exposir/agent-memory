@@ -1,0 +1,2289 @@
+{
+  "schemaVersion": 1,
+  "corpusCutoff": "2026-01-15T00:00:00.000Z",
+  "count": 20,
+  "records": [
+    {
+      "id": "known-01-gateway-upgrade",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "gateway 升级 0.1.3727",
+      "answerSummary": "gateway 从 v0.1.2557 升到 v0.1.3727，容器健康且模型调用通过。",
+      "answerTerms": [
+        "gateway",
+        "0.1.3727",
+        "3727",
+        "gateway-claude",
+        "claude",
+        "v0.1.2557",
+        "0.1.2557",
+        "v0",
+        "2557",
+        "sha256",
+        "sha",
+        "256",
+        "7816c4e0",
+        "7816",
+        "700",
+        "release",
+        "升级"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：gateway 升级 0.1.3727",
+          "answerTerms": [
+            "gateway",
+            "0.1.3727",
+            "3727",
+            "gateway-claude",
+            "claude",
+            "v0.1.2557",
+            "0.1.2557",
+            "v0",
+            "2557",
+            "sha256",
+            "sha",
+            "256",
+            "7816c4e0",
+            "7816",
+            "700",
+            "release",
+            "升级"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "gataway 升级 0.1.3727",
+          "answerTerms": [
+            "gateway",
+            "0.1.3727",
+            "3727",
+            "gateway-claude",
+            "claude",
+            "v0.1.2557",
+            "0.1.2557",
+            "v0",
+            "2557",
+            "sha256",
+            "sha",
+            "256",
+            "7816c4e0",
+            "7816",
+            "700",
+            "release",
+            "升级"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“gateway 升级 0.1.3727”",
+          "answerTerms": [
+            "gateway",
+            "0.1.3727",
+            "3727",
+            "gateway-claude",
+            "claude",
+            "v0.1.2557",
+            "0.1.2557",
+            "v0",
+            "2557",
+            "sha256",
+            "sha",
+            "256",
+            "7816c4e0",
+            "7816",
+            "700",
+            "release",
+            "升级"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "gateway 升级 0.1.3727（相关路径：/work/acme/.config/gateway-docker）",
+          "answerTerms": [
+            "gateway",
+            "0.1.3727",
+            "3727",
+            "gateway-claude",
+            "claude",
+            "v0.1.2557",
+            "0.1.2557",
+            "v0",
+            "2557",
+            "sha256",
+            "sha",
+            "256",
+            "7816c4e0",
+            "7816",
+            "700",
+            "release",
+            "升级"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：gateway 升级 0.1.3727",
+          "answerTerms": [
+            "gateway",
+            "0.1.3727",
+            "3727",
+            "gateway-claude",
+            "claude",
+            "v0.1.2557",
+            "0.1.2557",
+            "v0",
+            "2557",
+            "sha256",
+            "sha",
+            "256",
+            "7816c4e0",
+            "7816",
+            "700",
+            "release",
+            "升级"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-02-time-end-internal-pages",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "星轨之外 入口 收敛 internal-pages",
+      "answerSummary": "删除《星轨之外》公网入口，统一跳转到 internal-pages 的十五路实测页。",
+      "answerTerms": [
+        "internal-pages",
+        "internal",
+        "pages",
+        "star-beyond-20260109",
+        "star",
+        "beyond",
+        "20260109",
+        "star-beyond",
+        "retired",
+        "private/research/star-beyond-20260109",
+        "private",
+        "research",
+        "星轨",
+        "轨之",
+        "之外",
+        "入口",
+        "收敛"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：星轨之外 入口 收敛 internal-pages",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "star-beyond-20260109",
+            "star",
+            "beyond",
+            "20260109",
+            "star-beyond",
+            "retired",
+            "private/research/star-beyond-20260109",
+            "private",
+            "research",
+            "星轨",
+            "轨之",
+            "之外",
+            "入口",
+            "收敛"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "星轨之外 入口 收敛 internae-pages",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "star-beyond-20260109",
+            "star",
+            "beyond",
+            "20260109",
+            "star-beyond",
+            "retired",
+            "private/research/star-beyond-20260109",
+            "private",
+            "research",
+            "星轨",
+            "轨之",
+            "之外",
+            "入口",
+            "收敛"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“星轨之外 入口 收敛 internal-pages”",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "star-beyond-20260109",
+            "star",
+            "beyond",
+            "20260109",
+            "star-beyond",
+            "retired",
+            "private/research/star-beyond-20260109",
+            "private",
+            "research",
+            "星轨",
+            "轨之",
+            "之外",
+            "入口",
+            "收敛"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "星轨之外 入口 收敛 internal-pages（相关路径：functions/_middleware.js）",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "star-beyond-20260109",
+            "star",
+            "beyond",
+            "20260109",
+            "star-beyond",
+            "retired",
+            "private/research/star-beyond-20260109",
+            "private",
+            "research",
+            "星轨",
+            "轨之",
+            "之外",
+            "入口",
+            "收敛"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：星轨之外 入口 收敛 internal-pages",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "star-beyond-20260109",
+            "star",
+            "beyond",
+            "20260109",
+            "star-beyond",
+            "retired",
+            "private/research/star-beyond-20260109",
+            "private",
+            "research",
+            "星轨",
+            "轨之",
+            "之外",
+            "入口",
+            "收敛"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-03-star-beyond-score",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "star-beyond codex DeepSeek Flash Max 1M 评分",
+      "answerSummary": "评测页新增 codex · DeepSeek Flash Max 1M，评分 97/100。",
+      "answerTerms": [
+        "star-beyond",
+        "star",
+        "beyond",
+        "codex",
+        "deepseek",
+        "deep",
+        "seek",
+        "flash",
+        "max",
+        "1m",
+        "评分"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：star-beyond codex DeepSeek Flash Max 1M 评分",
+          "answerTerms": [
+            "star-beyond",
+            "star",
+            "beyond",
+            "codex",
+            "deepseek",
+            "deep",
+            "seek",
+            "flash",
+            "max",
+            "1m",
+            "评分"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "star-eeyond codex DeepSeek Flash Max 1M 评分",
+          "answerTerms": [
+            "star-beyond",
+            "star",
+            "beyond",
+            "codex",
+            "deepseek",
+            "deep",
+            "seek",
+            "flash",
+            "max",
+            "1m",
+            "评分"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“star-beyond” codex DeepSeek Flash Max 1M 评分",
+          "answerTerms": [
+            "star-beyond",
+            "star",
+            "beyond",
+            "codex",
+            "deepseek",
+            "deep",
+            "seek",
+            "flash",
+            "max",
+            "1m",
+            "评分"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "star-beyond codex DeepSeek Flash Max 1M 评分（相关路径：/work/pages/public/research/deepseek-provider-quality-20261106/data.json）",
+          "answerTerms": [
+            "star-beyond",
+            "star",
+            "beyond",
+            "codex",
+            "deepseek",
+            "deep",
+            "seek",
+            "flash",
+            "max",
+            "1m",
+            "评分"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：star-beyond codex DeepSeek Flash Max 1M 评分",
+          "answerTerms": [
+            "star-beyond",
+            "star",
+            "beyond",
+            "codex",
+            "deepseek",
+            "deep",
+            "seek",
+            "flash",
+            "max",
+            "1m",
+            "评分"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-04-opencode-gateway",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "opencode Mac 切换 gateway deepseek group",
+      "answerSummary": "Mac opencode 切到 gateway deepseek group，配置与冒烟验证通过。",
+      "answerTerms": [
+        "opencode",
+        "mac",
+        "gateway",
+        "deepseek",
+        "group",
+        "1.19.5",
+        "19",
+        "pure",
+        "切换",
+        "冒烟"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：opencode Mac 切换 gateway deepseek group",
+          "answerTerms": [
+            "opencode",
+            "mac",
+            "gateway",
+            "deepseek",
+            "group",
+            "1.19.5",
+            "19",
+            "pure",
+            "切换",
+            "冒烟"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "openeode Mac 切换 gateway deepseek group",
+          "answerTerms": [
+            "opencode",
+            "mac",
+            "gateway",
+            "deepseek",
+            "group",
+            "1.19.5",
+            "19",
+            "pure",
+            "切换",
+            "冒烟"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“opencode” Mac 切换 gateway deepseek group",
+          "answerTerms": [
+            "opencode",
+            "mac",
+            "gateway",
+            "deepseek",
+            "group",
+            "1.19.5",
+            "19",
+            "pure",
+            "切换",
+            "冒烟"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "opencode Mac 切换 gateway deepseek group（相关路径：/work/acme/.config/opencode/opencode.jsonc）",
+          "answerTerms": [
+            "opencode",
+            "mac",
+            "gateway",
+            "deepseek",
+            "group",
+            "1.19.5",
+            "19",
+            "pure",
+            "切换",
+            "冒烟"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：opencode Mac 切换 gateway deepseek group",
+          "answerTerms": [
+            "opencode",
+            "mac",
+            "gateway",
+            "deepseek",
+            "group",
+            "1.19.5",
+            "19",
+            "pure",
+            "切换",
+            "冒烟"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-05-recallkit-storage",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "recallkit recallkit-dev 存记忆在哪 索引怎么建",
+      "answerSummary": "原始会话留在各 agent 目录，recallkit 建可重建索引，显式记忆写 notes。",
+      "answerTerms": [
+        "recallkit",
+        "recallkit-dev",
+        "dev",
+        "0.7",
+        "43",
+        "agents",
+        "local/share/recallkit/notes.jsonl",
+        "local",
+        "share",
+        "notes",
+        "jsonl"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：recallkit recallkit-dev 存记忆在哪 索引怎么建",
+          "answerTerms": [
+            "recallkit",
+            "recallkit-dev",
+            "dev",
+            "0.7",
+            "43",
+            "agents",
+            "local/share/recallkit/notes.jsonl",
+            "local",
+            "share",
+            "notes",
+            "jsonl"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "recaelkit recallkit-dev 存记忆在哪 索引怎么建",
+          "answerTerms": [
+            "recallkit",
+            "recallkit-dev",
+            "dev",
+            "0.7",
+            "43",
+            "agents",
+            "local/share/recallkit/notes.jsonl",
+            "local",
+            "share",
+            "notes",
+            "jsonl"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“recallkit recallkit-dev 存记忆在哪 索引怎么建”",
+          "answerTerms": [
+            "recallkit",
+            "recallkit-dev",
+            "dev",
+            "0.7",
+            "43",
+            "agents",
+            "local/share/recallkit/notes.jsonl",
+            "local",
+            "share",
+            "notes",
+            "jsonl"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "recallkit recallkit-dev 存记忆在哪 索引怎么建（相关路径：~/.local/share/recallkit/notes.jsonl）",
+          "answerTerms": [
+            "recallkit",
+            "recallkit-dev",
+            "dev",
+            "0.7",
+            "43",
+            "agents",
+            "local/share/recallkit/notes.jsonl",
+            "local",
+            "share",
+            "notes",
+            "jsonl"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：recallkit recallkit-dev 存记忆在哪 索引怎么建",
+          "answerTerms": [
+            "recallkit",
+            "recallkit-dev",
+            "dev",
+            "0.7",
+            "43",
+            "agents",
+            "local/share/recallkit/notes.jsonl",
+            "local",
+            "share",
+            "notes",
+            "jsonl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-06-agent-memory",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "agent-memory github 公开仓库 README",
+      "answerSummary": "新建 exposir/agent-memory 公开仓库并写入 FTS5 检索设计。",
+      "answerTerms": [
+        "agent-memory",
+        "agent",
+        "memory",
+        "github",
+        "readme",
+        "github.com/exposir/agent-memory.git",
+        "com",
+        "exposir",
+        "git",
+        "公开",
+        "开仓",
+        "仓库"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：agent-memory github 公开仓库 README",
+          "answerTerms": [
+            "agent-memory",
+            "agent",
+            "memory",
+            "github",
+            "readme",
+            "github.com/exposir/agent-memory.git",
+            "com",
+            "exposir",
+            "git",
+            "公开",
+            "开仓",
+            "仓库"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "agent-eemory github 公开仓库 README",
+          "answerTerms": [
+            "agent-memory",
+            "agent",
+            "memory",
+            "github",
+            "readme",
+            "github.com/exposir/agent-memory.git",
+            "com",
+            "exposir",
+            "git",
+            "公开",
+            "开仓",
+            "仓库"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“agent-memory github 公开仓库 README”",
+          "answerTerms": [
+            "agent-memory",
+            "agent",
+            "memory",
+            "github",
+            "readme",
+            "github.com/exposir/agent-memory.git",
+            "com",
+            "exposir",
+            "git",
+            "公开",
+            "开仓",
+            "仓库"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "agent-memory github 公开仓库 README（相关路径：/work/acme/README.md）",
+          "answerTerms": [
+            "agent-memory",
+            "agent",
+            "memory",
+            "github",
+            "readme",
+            "github.com/exposir/agent-memory.git",
+            "com",
+            "exposir",
+            "git",
+            "公开",
+            "开仓",
+            "仓库"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：agent-memory github 公开仓库 README",
+          "answerTerms": [
+            "agent-memory",
+            "agent",
+            "memory",
+            "github",
+            "readme",
+            "github.com/exposir/agent-memory.git",
+            "com",
+            "exposir",
+            "git",
+            "公开",
+            "开仓",
+            "仓库"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-07-release-cadence",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "gateway 多久发版一次 106",
+      "answerSummary": "近 7 天约 700 个 release，日均约 106 个，中位间隔 7.3 分钟。",
+      "answerTerms": [
+        "gateway",
+        "106",
+        "700",
+        "release",
+        "7.3",
+        "多久",
+        "久发",
+        "发版",
+        "版一",
+        "一次",
+        "日均",
+        "分钟"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：gateway 多久发版一次 106",
+          "answerTerms": [
+            "gateway",
+            "106",
+            "700",
+            "release",
+            "7.3",
+            "多久",
+            "久发",
+            "发版",
+            "版一",
+            "一次",
+            "日均",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "gataway 多久发版一次 106",
+          "answerTerms": [
+            "gateway",
+            "106",
+            "700",
+            "release",
+            "7.3",
+            "多久",
+            "久发",
+            "发版",
+            "版一",
+            "一次",
+            "日均",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“gateway” 多久发版一次 106",
+          "answerTerms": [
+            "gateway",
+            "106",
+            "700",
+            "release",
+            "7.3",
+            "多久",
+            "久发",
+            "发版",
+            "版一",
+            "一次",
+            "日均",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "gateway 多久发版一次 106（相关路径：/work/acme/.config/gateway-docker）",
+          "answerTerms": [
+            "gateway",
+            "106",
+            "700",
+            "release",
+            "7.3",
+            "多久",
+            "久发",
+            "发版",
+            "版一",
+            "一次",
+            "日均",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：gateway 多久发版一次 106",
+          "answerTerms": [
+            "gateway",
+            "106",
+            "700",
+            "release",
+            "7.3",
+            "多久",
+            "久发",
+            "发版",
+            "版一",
+            "一次",
+            "日均",
+            "分钟"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-08-codex-schema",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "Codex session rollout jsonl item_completed 格式",
+      "answerSummary": "Codex rollout 从 event_msg/item_completed 提取 UserMessage 与 AgentMessage。",
+      "answerTerms": [
+        "codex",
+        "session",
+        "rollout",
+        "jsonl",
+        "item_completed",
+        "item",
+        "completed",
+        "usermessage",
+        "user",
+        "message",
+        "agentmessage",
+        "agent",
+        "commandexecution",
+        "command",
+        "execution",
+        "event_msg",
+        "event",
+        "msg",
+        "payload.item.type",
+        "payload",
+        "type",
+        "格式"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：Codex session rollout jsonl item_completed 格式",
+          "answerTerms": [
+            "codex",
+            "session",
+            "rollout",
+            "jsonl",
+            "item_completed",
+            "item",
+            "completed",
+            "usermessage",
+            "user",
+            "message",
+            "agentmessage",
+            "agent",
+            "commandexecution",
+            "command",
+            "execution",
+            "event_msg",
+            "event",
+            "msg",
+            "payload.item.type",
+            "payload",
+            "type",
+            "格式"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "Coeex session rollout jsonl item_completed 格式",
+          "answerTerms": [
+            "codex",
+            "session",
+            "rollout",
+            "jsonl",
+            "item_completed",
+            "item",
+            "completed",
+            "usermessage",
+            "user",
+            "message",
+            "agentmessage",
+            "agent",
+            "commandexecution",
+            "command",
+            "execution",
+            "event_msg",
+            "event",
+            "msg",
+            "payload.item.type",
+            "payload",
+            "type",
+            "格式"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“Codex session rollout jsonl item_completed 格式”",
+          "answerTerms": [
+            "codex",
+            "session",
+            "rollout",
+            "jsonl",
+            "item_completed",
+            "item",
+            "completed",
+            "usermessage",
+            "user",
+            "message",
+            "agentmessage",
+            "agent",
+            "commandexecution",
+            "command",
+            "execution",
+            "event_msg",
+            "event",
+            "msg",
+            "payload.item.type",
+            "payload",
+            "type",
+            "格式"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "Codex session rollout jsonl item_completed 格式（相关路径：~/.codex/sessions）",
+          "answerTerms": [
+            "codex",
+            "session",
+            "rollout",
+            "jsonl",
+            "item_completed",
+            "item",
+            "completed",
+            "usermessage",
+            "user",
+            "message",
+            "agentmessage",
+            "agent",
+            "commandexecution",
+            "command",
+            "execution",
+            "event_msg",
+            "event",
+            "msg",
+            "payload.item.type",
+            "payload",
+            "type",
+            "格式"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：Codex session rollout jsonl item_completed 格式",
+          "answerTerms": [
+            "codex",
+            "session",
+            "rollout",
+            "jsonl",
+            "item_completed",
+            "item",
+            "completed",
+            "usermessage",
+            "user",
+            "message",
+            "agentmessage",
+            "agent",
+            "commandexecution",
+            "command",
+            "execution",
+            "event_msg",
+            "event",
+            "msg",
+            "payload.item.type",
+            "payload",
+            "type",
+            "格式"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-09-wrangler-workerd",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "wrangler npx cache darwin workerd 权限",
+      "answerSummary": "共享 npx 缓存误含 darwin workerd，Linux 侧改用隔离 npm cache。",
+      "answerTerms": [
+        "wrangler",
+        "npx",
+        "cache",
+        "darwin",
+        "workerd",
+        "workerd-darwin-arm64",
+        "workerd-darwin-arm",
+        "64",
+        "arm64",
+        "linux",
+        "arm",
+        "权限"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：wrangler npx cache darwin workerd 权限",
+          "answerTerms": [
+            "wrangler",
+            "npx",
+            "cache",
+            "darwin",
+            "workerd",
+            "workerd-darwin-arm64",
+            "workerd-darwin-arm",
+            "64",
+            "arm64",
+            "linux",
+            "arm",
+            "权限"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "wraneler npx cache darwin workerd 权限",
+          "answerTerms": [
+            "wrangler",
+            "npx",
+            "cache",
+            "darwin",
+            "workerd",
+            "workerd-darwin-arm64",
+            "workerd-darwin-arm",
+            "64",
+            "arm64",
+            "linux",
+            "arm",
+            "权限"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“wrangler npx cache darwin workerd 权限”",
+          "answerTerms": [
+            "wrangler",
+            "npx",
+            "cache",
+            "darwin",
+            "workerd",
+            "workerd-darwin-arm64",
+            "workerd-darwin-arm",
+            "64",
+            "arm64",
+            "linux",
+            "arm",
+            "权限"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "wrangler npx cache darwin workerd 权限（相关路径：~/.npm/_npx/synthetic-cache）",
+          "answerTerms": [
+            "wrangler",
+            "npx",
+            "cache",
+            "darwin",
+            "workerd",
+            "workerd-darwin-arm64",
+            "workerd-darwin-arm",
+            "64",
+            "arm64",
+            "linux",
+            "arm",
+            "权限"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：wrangler npx cache darwin workerd 权限",
+          "answerTerms": [
+            "wrangler",
+            "npx",
+            "cache",
+            "darwin",
+            "workerd",
+            "workerd-darwin-arm64",
+            "workerd-darwin-arm",
+            "64",
+            "arm64",
+            "linux",
+            "arm",
+            "权限"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-10-cf-retired",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "CF 页面 301 旧地址 _middleware RETIRED",
+      "answerSummary": "旧页删除后仍命中边缘缓存，middleware 增加 RETIRED 前缀 301。",
+      "answerTerms": [
+        "cf",
+        "301",
+        "middleware",
+        "retired",
+        "research/star-beyond",
+        "research",
+        "star",
+        "beyond",
+        "s-maxage",
+        "maxage",
+        "tombstone",
+        "页面",
+        "旧地",
+        "地址"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：CF 页面 301 旧地址 _middleware RETIRED",
+          "answerTerms": [
+            "cf",
+            "301",
+            "middleware",
+            "retired",
+            "research/star-beyond",
+            "research",
+            "star",
+            "beyond",
+            "s-maxage",
+            "maxage",
+            "tombstone",
+            "页面",
+            "旧地",
+            "地址"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "CF 页面 301 旧地址 _middlaware RETIRED",
+          "answerTerms": [
+            "cf",
+            "301",
+            "middleware",
+            "retired",
+            "research/star-beyond",
+            "research",
+            "star",
+            "beyond",
+            "s-maxage",
+            "maxage",
+            "tombstone",
+            "页面",
+            "旧地",
+            "地址"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“CF 页面 301 旧地址 _middleware RETIRED”",
+          "answerTerms": [
+            "cf",
+            "301",
+            "middleware",
+            "retired",
+            "research/star-beyond",
+            "research",
+            "star",
+            "beyond",
+            "s-maxage",
+            "maxage",
+            "tombstone",
+            "页面",
+            "旧地",
+            "地址"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "CF 页面 301 旧地址 _middleware RETIRED（相关路径：functions/_middleware.js）",
+          "answerTerms": [
+            "cf",
+            "301",
+            "middleware",
+            "retired",
+            "research/star-beyond",
+            "research",
+            "star",
+            "beyond",
+            "s-maxage",
+            "maxage",
+            "tombstone",
+            "页面",
+            "旧地",
+            "地址"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：CF 页面 301 旧地址 _middleware RETIRED",
+          "answerTerms": [
+            "cf",
+            "301",
+            "middleware",
+            "retired",
+            "research/star-beyond",
+            "research",
+            "star",
+            "beyond",
+            "s-maxage",
+            "maxage",
+            "tombstone",
+            "页面",
+            "旧地",
+            "地址"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-11-internal-pages-worktree",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000016",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:22:00.000Z",
+      "query": "internal-pages is_internal-pages_repo .git 目录 worktree",
+      "answerSummary": "is_internal-pages_repo 通过 .git 目录判断仓库类型，部署在独立 worktree 完成。",
+      "answerTerms": [
+        "internal-pages",
+        "internal",
+        "pages",
+        "is_internal-pages_repo",
+        "repo",
+        "git",
+        "worktree",
+        "fix/deploy-internal-pages-cf-worktree",
+        "fix",
+        "deploy",
+        "cf",
+        "hosts.py",
+        "hosts",
+        "py",
+        "64",
+        "目录"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：internal-pages is_internal-pages_repo .git 目录 worktree",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "is_internal-pages_repo",
+            "repo",
+            "git",
+            "worktree",
+            "fix/deploy-internal-pages-cf-worktree",
+            "fix",
+            "deploy",
+            "cf",
+            "hosts.py",
+            "hosts",
+            "py",
+            "64",
+            "目录"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "internae-pages is_internal-pages_repo .git 目录 worktree",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "is_internal-pages_repo",
+            "repo",
+            "git",
+            "worktree",
+            "fix/deploy-internal-pages-cf-worktree",
+            "fix",
+            "deploy",
+            "cf",
+            "hosts.py",
+            "hosts",
+            "py",
+            "64",
+            "目录"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“internal-pages is_internal-pages_repo .git 目录 worktree”",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "is_internal-pages_repo",
+            "repo",
+            "git",
+            "worktree",
+            "fix/deploy-internal-pages-cf-worktree",
+            "fix",
+            "deploy",
+            "cf",
+            "hosts.py",
+            "hosts",
+            "py",
+            "64",
+            "目录"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "internal-pages is_internal-pages_repo .git 目录 worktree（相关路径：skills/page-deploy/scripts/hosts.py）",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "is_internal-pages_repo",
+            "repo",
+            "git",
+            "worktree",
+            "fix/deploy-internal-pages-cf-worktree",
+            "fix",
+            "deploy",
+            "cf",
+            "hosts.py",
+            "hosts",
+            "py",
+            "64",
+            "目录"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：internal-pages is_internal-pages_repo .git 目录 worktree",
+          "answerTerms": [
+            "internal-pages",
+            "internal",
+            "pages",
+            "is_internal-pages_repo",
+            "repo",
+            "git",
+            "worktree",
+            "fix/deploy-internal-pages-cf-worktree",
+            "fix",
+            "deploy",
+            "cf",
+            "hosts.py",
+            "hosts",
+            "py",
+            "64",
+            "目录"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-12-fts5-trigram",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "SQLite FTS5 trigram 中文 2 字 时间",
+      "answerSummary": "trigram 无法覆盖两字中文，最终采用 CJK 二元组加预分词索引。",
+      "answerTerms": [
+        "sqlite",
+        "sq",
+        "lite",
+        "fts5",
+        "fts",
+        "trigram",
+        "中文",
+        "时间"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：SQLite FTS5 trigram 中文 2 字 时间",
+          "answerTerms": [
+            "sqlite",
+            "sq",
+            "lite",
+            "fts5",
+            "fts",
+            "trigram",
+            "中文",
+            "时间"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "SQLete FTS5 trigram 中文 2 字 时间",
+          "answerTerms": [
+            "sqlite",
+            "sq",
+            "lite",
+            "fts5",
+            "fts",
+            "trigram",
+            "中文",
+            "时间"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "SQLite FTS5 “trigram” 中文 2 字 时间",
+          "answerTerms": [
+            "sqlite",
+            "sq",
+            "lite",
+            "fts5",
+            "fts",
+            "trigram",
+            "中文",
+            "时间"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "SQLite FTS5 trigram 中文 2 字 时间（相关路径：/work/acme/memlib/tokenize.py）",
+          "answerTerms": [
+            "sqlite",
+            "sq",
+            "lite",
+            "fts5",
+            "fts",
+            "trigram",
+            "中文",
+            "时间"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：SQLite FTS5 trigram 中文 2 字 时间",
+          "answerTerms": [
+            "sqlite",
+            "sq",
+            "lite",
+            "fts5",
+            "fts",
+            "trigram",
+            "中文",
+            "时间"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-13-jieba",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "jieba 0.42.1 FTS5 中文分词",
+      "answerSummary": "jieba 方案验证过，但 TS 版不引入 Python 分词运行时依赖。",
+      "answerTerms": [
+        "jieba",
+        "0.42.1",
+        "42",
+        "fts5",
+        "fts",
+        "中文",
+        "文分",
+        "分词"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：jieba 0.42.1 FTS5 中文分词",
+          "answerTerms": [
+            "jieba",
+            "0.42.1",
+            "42",
+            "fts5",
+            "fts",
+            "中文",
+            "文分",
+            "分词"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "jiaba 0.42.1 FTS5 中文分词",
+          "answerTerms": [
+            "jieba",
+            "0.42.1",
+            "42",
+            "fts5",
+            "fts",
+            "中文",
+            "文分",
+            "分词"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "jieba “0.42.1” FTS5 中文分词",
+          "answerTerms": [
+            "jieba",
+            "0.42.1",
+            "42",
+            "fts5",
+            "fts",
+            "中文",
+            "文分",
+            "分词"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "jieba 0.42.1 FTS5 中文分词（相关路径：/work/acme/memlib/tokenize.py）",
+          "answerTerms": [
+            "jieba",
+            "0.42.1",
+            "42",
+            "fts5",
+            "fts",
+            "中文",
+            "文分",
+            "分词"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：jieba 0.42.1 FTS5 中文分词",
+          "answerTerms": [
+            "jieba",
+            "0.42.1",
+            "42",
+            "fts5",
+            "fts",
+            "中文",
+            "文分",
+            "分词"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-14-anthropic-memory",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "Anthropic components of agent memory dreaming 413 文件",
+      "answerSummary": "记忆研究支持 transcript search 为基础，但无差别记录会拖慢任务。",
+      "answerTerms": [
+        "anthropic",
+        "components",
+        "agent",
+        "memory",
+        "dreaming",
+        "413",
+        "文件"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：Anthropic components of agent memory dreaming 413 文件",
+          "answerTerms": [
+            "anthropic",
+            "components",
+            "agent",
+            "memory",
+            "dreaming",
+            "413",
+            "文件"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "Antheopic components of agent memory dreaming 413 文件",
+          "answerTerms": [
+            "anthropic",
+            "components",
+            "agent",
+            "memory",
+            "dreaming",
+            "413",
+            "文件"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "Anthropic “components” of agent memory dreaming 413 文件",
+          "answerTerms": [
+            "anthropic",
+            "components",
+            "agent",
+            "memory",
+            "dreaming",
+            "413",
+            "文件"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "Anthropic components of agent memory dreaming 413 文件（相关路径：/work/acme/PLAN.md）",
+          "answerTerms": [
+            "anthropic",
+            "components",
+            "agent",
+            "memory",
+            "dreaming",
+            "413",
+            "文件"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：Anthropic components of agent memory dreaming 413 文件",
+          "answerTerms": [
+            "anthropic",
+            "components",
+            "agent",
+            "memory",
+            "dreaming",
+            "413",
+            "文件"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-15-recallkit-cooldown",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "recallkit hook-prompt 20 分钟 cooldown",
+      "answerSummary": "recallkit 的自动注入用冷却、块指纹和 seen 状态控制重复。",
+      "answerTerms": [
+        "recallkit",
+        "hook-prompt",
+        "hook",
+        "prompt",
+        "20",
+        "cooldown",
+        "分钟"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：recallkit hook-prompt 20 分钟 cooldown",
+          "answerTerms": [
+            "recallkit",
+            "hook-prompt",
+            "hook",
+            "prompt",
+            "20",
+            "cooldown",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "recaelkit hook-prompt 20 分钟 cooldown",
+          "answerTerms": [
+            "recallkit",
+            "hook-prompt",
+            "hook",
+            "prompt",
+            "20",
+            "cooldown",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "recallkit “hook-prompt” 20 分钟 cooldown",
+          "answerTerms": [
+            "recallkit",
+            "hook-prompt",
+            "hook",
+            "prompt",
+            "20",
+            "cooldown",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "recallkit hook-prompt 20 分钟 cooldown（相关路径：/work/recallkit/src/prompt/prompt.go）",
+          "answerTerms": [
+            "recallkit",
+            "hook-prompt",
+            "hook",
+            "prompt",
+            "20",
+            "cooldown",
+            "分钟"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：recallkit hook-prompt 20 分钟 cooldown",
+          "answerTerms": [
+            "recallkit",
+            "hook-prompt",
+            "hook",
+            "prompt",
+            "20",
+            "cooldown",
+            "分钟"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-16-bm25",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "BM25 decisionBoost 2.0 promotedNoteBoost 1.25",
+      "answerSummary": "复刻 BM25 常数与 decisionBoost、promotedNoteBoost 等加权乘数。",
+      "answerTerms": [
+        "bm25",
+        "bm",
+        "25",
+        "decisionboost",
+        "decision",
+        "boost",
+        "2.0",
+        "promotednoteboost",
+        "promoted",
+        "note",
+        "1.25"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：BM25 decisionBoost 2.0 promotedNoteBoost 1.25",
+          "answerTerms": [
+            "bm25",
+            "bm",
+            "25",
+            "decisionboost",
+            "decision",
+            "boost",
+            "2.0",
+            "promotednoteboost",
+            "promoted",
+            "note",
+            "1.25"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "BMe5 decisionBoost 2.0 promotedNoteBoost 1.25",
+          "answerTerms": [
+            "bm25",
+            "bm",
+            "25",
+            "decisionboost",
+            "decision",
+            "boost",
+            "2.0",
+            "promotednoteboost",
+            "promoted",
+            "note",
+            "1.25"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“BM25 decisionBoost 2.0 promotedNoteBoost 1.25”",
+          "answerTerms": [
+            "bm25",
+            "bm",
+            "25",
+            "decisionboost",
+            "decision",
+            "boost",
+            "2.0",
+            "promotednoteboost",
+            "promoted",
+            "note",
+            "1.25"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "BM25 decisionBoost 2.0 promotedNoteBoost 1.25（相关路径：/work/acme/PLAN.md）",
+          "answerTerms": [
+            "bm25",
+            "bm",
+            "25",
+            "decisionboost",
+            "decision",
+            "boost",
+            "2.0",
+            "promotednoteboost",
+            "promoted",
+            "note",
+            "1.25"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：BM25 decisionBoost 2.0 promotedNoteBoost 1.25",
+          "answerTerms": [
+            "bm25",
+            "bm",
+            "25",
+            "decisionboost",
+            "decision",
+            "boost",
+            "2.0",
+            "promotednoteboost",
+            "promoted",
+            "note",
+            "1.25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-17-assistant-plugin",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "内部助手插件 高风险软件 卸载",
+      "answerSummary": "内部助手插件桌面插件通过 CDP 驱动 App，并记录高风险软件处置。",
+      "answerTerms": [
+        "内部",
+        "部助",
+        "助手",
+        "手插",
+        "插件",
+        "高风",
+        "风险",
+        "险软",
+        "软件",
+        "卸载"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：内部助手插件 高风险软件 卸载",
+          "answerTerms": [
+            "内部",
+            "部助",
+            "助手",
+            "手插",
+            "插件",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "卸载"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "部内助手插件 高风险软件 卸载",
+          "answerTerms": [
+            "内部",
+            "部助",
+            "助手",
+            "手插",
+            "插件",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "卸载"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“内部”助手插件 高风险软件 卸载",
+          "answerTerms": [
+            "内部",
+            "部助",
+            "助手",
+            "手插",
+            "插件",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "卸载"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "内部助手插件 高风险软件 卸载（相关路径：/Applications/InternalAssistant.app）",
+          "answerTerms": [
+            "内部",
+            "部助",
+            "助手",
+            "手插",
+            "插件",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "卸载"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：内部助手插件 高风险软件 卸载",
+          "answerTerms": [
+            "内部",
+            "部助",
+            "助手",
+            "手插",
+            "插件",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "卸载"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-18-agy-default",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "agy 默认模型 星",
+      "answerSummary": "agy 原生登录态当时默认使用 Gemini 4 Argon (Medium)。",
+      "answerTerms": [
+        "agy",
+        "gemini",
+        "argon",
+        "medium",
+        "native",
+        "model",
+        "默认",
+        "认模",
+        "模型",
+        "原生",
+        "生登",
+        "登录",
+        "录态"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：agy 默认模型 星",
+          "answerTerms": [
+            "agy",
+            "gemini",
+            "argon",
+            "medium",
+            "native",
+            "model",
+            "默认",
+            "认模",
+            "模型",
+            "原生",
+            "生登",
+            "登录",
+            "录态"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "agy 认默模型 星",
+          "answerTerms": [
+            "agy",
+            "gemini",
+            "argon",
+            "medium",
+            "native",
+            "model",
+            "默认",
+            "认模",
+            "模型",
+            "原生",
+            "生登",
+            "登录",
+            "录态"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“agy 默认模型 星”",
+          "answerTerms": [
+            "agy",
+            "gemini",
+            "argon",
+            "medium",
+            "native",
+            "model",
+            "默认",
+            "认模",
+            "模型",
+            "原生",
+            "生登",
+            "登录",
+            "录态"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "agy 默认模型 星（相关路径：/work/acme/.gemini/antigravity-cli/settings.json）",
+          "answerTerms": [
+            "agy",
+            "gemini",
+            "argon",
+            "medium",
+            "native",
+            "model",
+            "默认",
+            "认模",
+            "模型",
+            "原生",
+            "生登",
+            "登录",
+            "录态"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：agy 默认模型 星",
+          "answerTerms": [
+            "agy",
+            "gemini",
+            "argon",
+            "medium",
+            "native",
+            "model",
+            "默认",
+            "认模",
+            "模型",
+            "原生",
+            "生登",
+            "登录",
+            "录态"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-19-agy-auth-plugin",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "opencode-agy-cli-auth 插件",
+      "answerSummary": "评估 opencode-agy-cli-auth 将本机 agy CLI 接成 gateway provider。",
+      "answerTerms": [
+        "opencode-agy-cli-auth",
+        "opencode",
+        "agy",
+        "cli",
+        "auth",
+        "插件"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：opencode-agy-cli-auth 插件",
+          "answerTerms": [
+            "opencode-agy-cli-auth",
+            "opencode",
+            "agy",
+            "cli",
+            "auth",
+            "插件"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "opencode-aey-cli-auth 插件",
+          "answerTerms": [
+            "opencode-agy-cli-auth",
+            "opencode",
+            "agy",
+            "cli",
+            "auth",
+            "插件"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“opencode-agy-cli-auth” 插件",
+          "answerTerms": [
+            "opencode-agy-cli-auth",
+            "opencode",
+            "agy",
+            "cli",
+            "auth",
+            "插件"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "opencode-agy-cli-auth 插件（相关路径：/work/acme/.config/gateway/plugin-providers.json）",
+          "answerTerms": [
+            "opencode-agy-cli-auth",
+            "opencode",
+            "agy",
+            "cli",
+            "auth",
+            "插件"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：opencode-agy-cli-auth 插件",
+          "answerTerms": [
+            "opencode-agy-cli-auth",
+            "opencode",
+            "agy",
+            "cli",
+            "auth",
+            "插件"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "known-20-assistant-block",
+      "agent": "claude",
+      "sid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/acme",
+      "updated": "2026-01-10T11:20:00.000Z",
+      "query": "InternalAssistant.app 高风险软件阻断提醒",
+      "answerSummary": "InternalAssistant.app 被高风险软件策略阻断，记录了安装与移除路径。",
+      "answerTerms": [
+        "internalassistant.app",
+        "internal",
+        "assistant.app",
+        "internalassistant",
+        "app",
+        "高风",
+        "风险",
+        "险软",
+        "软件",
+        "件阻",
+        "阻断",
+        "断提",
+        "提醒"
+      ],
+      "variants": [
+        {
+          "kind": "paraphrase",
+          "query": "想确认一下：InternalAssistant.app 高风险软件阻断提醒",
+          "answerTerms": [
+            "internalassistant.app",
+            "internal",
+            "assistant.app",
+            "internalassistant",
+            "app",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "件阻",
+            "阻断",
+            "断提",
+            "提醒"
+          ]
+        },
+        {
+          "kind": "typo",
+          "query": "InternalAseistant.app 高风险软件阻断提醒",
+          "answerTerms": [
+            "internalassistant.app",
+            "internal",
+            "assistant.app",
+            "internalassistant",
+            "app",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "件阻",
+            "阻断",
+            "断提",
+            "提醒"
+          ]
+        },
+        {
+          "kind": "quoted",
+          "query": "“InternalAssistant.app 高风险软件阻断提醒”",
+          "answerTerms": [
+            "internalassistant.app",
+            "internal",
+            "assistant.app",
+            "internalassistant",
+            "app",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "件阻",
+            "阻断",
+            "断提",
+            "提醒"
+          ]
+        },
+        {
+          "kind": "code_path",
+          "query": "InternalAssistant.app 高风险软件阻断提醒（相关路径：/Applications/InternalAssistant.app）",
+          "answerTerms": [
+            "internalassistant.app",
+            "internal",
+            "assistant.app",
+            "internalassistant",
+            "app",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "件阻",
+            "阻断",
+            "断提",
+            "提醒"
+          ]
+        },
+        {
+          "kind": "occasion",
+          "query": "查询历史记录时：InternalAssistant.app 高风险软件阻断提醒",
+          "answerTerms": [
+            "internalassistant.app",
+            "internal",
+            "assistant.app",
+            "internalassistant",
+            "app",
+            "高风",
+            "风险",
+            "险软",
+            "软件",
+            "件阻",
+            "阻断",
+            "断提",
+            "提醒"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "count": 15,
+  "records": [
+    {
+      "id": "negative-01",
+      "query": "今天中午吃的红烧肉放了几颗八角",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 10,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-02",
+      "query": "Daily Feed data/news.ts 用 json 重构",
+      "sourceSid": "00000000-0000-4000-8000-000000000003",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 2,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-03",
+      "query": "technews 以及 newsinsight 是不是更新了",
+      "sourceSid": "00000000-0000-4000-8000-000000000004",
+      "project": "/work/notes",
+      "sourceProject": "/work/sandbox",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 2,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-04",
+      "query": "quality-round1 1024 32px 单测 56/56",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 5,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-05",
+      "query": "cat2 union-all-circles 半径比 14.88",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/notes",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 7,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-06",
+      "query": "reader-body-layout 左栏 reader-file-rail 拖拽调宽",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 5,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-07",
+      "query": "scripts/subset-fonts usage.json Unicode-range Latin Extended-A",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 10,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-08",
+      "query": "a-coast-overview.png 679KB step=6 win=81",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 7,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-09",
+      "query": "tools/prep.py map_north.png survey_west.tif",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 8,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-10",
+      "query": "scheduled_task_run_logs daily-feed 1416 edition",
+      "sourceSid": "00000000-0000-4000-8000-000000000006",
+      "project": "/work/pages",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 8,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-11",
+      "query": "internal-pages 工作项 10000001 当前状态 流转条件",
+      "sourceSid": "00000000-0000-4000-8000-000000000016",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 7,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-12",
+      "query": "CF 页面 301 旧地址 _middleware RETIRED",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 5,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-13",
+      "query": "agy 默认模型 星",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 4,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-14",
+      "query": "InternalAssistant.app 高风险软件阻断提醒",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/sandbox",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 6,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    },
+    {
+      "id": "negative-15",
+      "query": "recallkit recallkit-dev 存记忆在哪 索引怎么建",
+      "sourceSid": "00000000-0000-4000-8000-000000000015",
+      "project": "/work/pages",
+      "sourceProject": "/work/acme",
+      "targetSessionCount": 12,
+      "overlapHighWatermark": 5,
+      "sourceInTarget": false,
+      "crossPairVerified": true
+    }
+  ]
+}
