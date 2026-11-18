@@ -95,9 +95,7 @@ function isWordCharacter(character: string | undefined): boolean {
   return character.charCodeAt(0) < 128 && /[a-z0-9_]/i.test(character);
 }
 
-export function carriesTerm(text: string, term: string): boolean {
-  const haystack = normalizeText(text);
-  const needle = normalizeText(term);
+export function carriesTermNormalized(haystack: string, needle: string): boolean {
   if (!needle) {
     return false;
   }
@@ -121,18 +119,25 @@ export function carriesTerm(text: string, term: string): boolean {
   }
 }
 
-export function termHits(text: string, terms: readonly string[]): number {
-  const haystack = normalizeText(text);
+export function carriesTerm(text: string, term: string): boolean {
+  return carriesTermNormalized(normalizeText(text), normalizeText(term));
+}
+
+export function termHitsNormalized(haystack: string, terms: readonly string[]): number {
   let hits = 0;
   for (const term of terms) {
     const needle = normalizeText(term);
-    if (carriesTerm(haystack, needle)) {
+    if (carriesTermNormalized(haystack, needle)) {
       hits += 1;
-    } else if (needle.length >= 7 && carriesTerm(haystack, needle.slice(0, -2))) {
+    } else if (needle.length >= 7 && carriesTermNormalized(haystack, needle.slice(0, -2))) {
       hits += 1;
     }
   }
   return hits;
+}
+
+export function termHits(text: string, terms: readonly string[]): number {
+  return termHitsNormalized(normalizeText(text), terms);
 }
 
 export function windowSpan(text: string, terms: readonly string[]): number {

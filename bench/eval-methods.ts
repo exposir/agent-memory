@@ -22,11 +22,13 @@ interface SessionRow {
 }
 
 interface MessageRow {
+  id: number;
   ordinal: number;
   ts: string;
   role: "user" | "assistant" | "tool_call" | "tool_result";
   kind: string;
   text: string;
+  tokens?: readonly string[];
 }
 
 interface CaseResult {
@@ -47,12 +49,29 @@ function percentile(values: number[], p: number): number {
 }
 
 function sessionMessages(db: ReturnType<typeof openReadDatabase>, sid: string): MessageRow[] {
-  return db
+  const rows = db
     .prepare(
-      `SELECT ordinal, ts, role, kind, text
+      `SELECT id, ordinal, ts, role, kind, text
        FROM msgs WHERE sid = ? ORDER BY ordinal`,
     )
     .all(sid) as MessageRow[];
+  const tokenRows = db
+    .prepare(
+      `SELECT m.id AS id, f.utokens AS utokens
+       FROM msgs m JOIN msgs_fts f ON f.rowid = m.id
+       WHERE m.sid = ? AND m.role IN ('user', 'assistant')`,
+    )
+    .all(sid) as Array<{ id: number; utokens: string }>;
+  const tokensById = new Map(
+    tokenRows.map((row) => [row.id, row.utokens ? row.utokens.split(" ") : []]),
+  );
+  for (const row of rows) {
+    const tokens = tokensById.get(row.id);
+    if (tokens && tokens.length > 0) {
+      row.tokens = tokens;
+    }
+  }
+  return rows;
 }
 
 function recallAnchors(

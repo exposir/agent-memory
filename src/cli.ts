@@ -218,12 +218,30 @@ function sessionMessages(
   db: Database.Database,
   sid: string,
 ): RecallMessage[] {
-  return db
+  const rows = db
     .prepare(
-      `SELECT ordinal, ts, role, kind, text
+      `SELECT id, ordinal, ts, role, kind, text
        FROM msgs WHERE sid = ? ORDER BY ordinal`,
     )
-    .all(sid) as RecallMessage[];
+    .all(sid) as Array<RecallMessage & { id: number }>;
+  // Tool records are never read by recall; only pay for human token rows.
+  const tokenRows = db
+    .prepare(
+      `SELECT m.id AS id, f.utokens AS utokens
+       FROM msgs m JOIN msgs_fts f ON f.rowid = m.id
+       WHERE m.sid = ? AND m.role IN ('user', 'assistant')`,
+    )
+    .all(sid) as Array<{ id: number; utokens: string }>;
+  const tokensById = new Map(
+    tokenRows.map((row) => [row.id, row.utokens ? row.utokens.split(" ") : []]),
+  );
+  for (const row of rows) {
+    const tokens = tokensById.get(row.id);
+    if (tokens && tokens.length > 0) {
+      row.tokens = tokens;
+    }
+  }
+  return rows;
 }
 
 function recallCandidates(

@@ -4,7 +4,14 @@ import type {
   RecallBlock,
   RecallQuote,
 } from "./types.js";
-import { carriesTerm, normalizeText, termHits, tokenize } from "./tokenize.js";
+import {
+  carriesTerm,
+  carriesTermNormalized,
+  normalizeText,
+  termHits,
+  termHitsNormalized,
+  tokenize,
+} from "./tokenize.js";
 
 export const REPLY_WINDOW = 4;
 export const CONCLUSION_POLICY = {
@@ -132,6 +139,11 @@ export interface RecallMessage {
   role: MessageRole;
   kind: string;
   text: string;
+  /**
+   * Index-time unique tokens for this message. Callers that read the index
+   * should pass `msgs_fts.utokens` so recall never re-tokenizes a transcript.
+   */
+  tokens?: readonly string[];
 }
 
 export interface RecallCandidate {
@@ -177,12 +189,14 @@ function nonEmptyLines(text: string): string[] {
 }
 
 function includesAny(text: string, phrases: readonly string[]): boolean {
-  const low = normalizeText(text);
-  return phrases.some((phrase) => low.includes(normalizeText(phrase)));
+  return includesAnyNormalized(normalizeText(text), phrases);
 }
 
-function isPlumbingLine(line: string): boolean {
-  const low = normalizeText(line);
+function includesAnyNormalized(normalizedText: string, phrases: readonly string[]): boolean {
+  return phrases.some((phrase) => normalizedText.includes(normalizeText(phrase)));
+}
+
+function isPlumbingLow(low: string): boolean {
   return (
     PLUMBING_PREFIXES.some((prefix) => low.startsWith(prefix)) ||
     low.includes("<tool_use") ||
@@ -192,6 +206,10 @@ function isPlumbingLine(line: string): boolean {
     low.includes("<system-reminder") ||
     low.startsWith("base directory for this skill")
   );
+}
+
+function isPlumbingLine(line: string): boolean {
+  return isPlumbingLow(normalizeText(line));
 }
 
 function isPlumbingMessage(message: RecallMessage): boolean {
@@ -238,13 +256,21 @@ function isBlocked(text: string): boolean {
 }
 
 export function carriesDecision(text: string, queryTerms: readonly string[] = []): boolean {
-  const low = normalizeText(text);
+  return carriesDecisionNormalized(normalizeText(text), queryTerms);
+}
+
+function carriesDecisionNormalized(
+  low: string,
+  queryTerms: readonly string[] = [],
+): boolean {
   return DECISION_MARKERS.some((marker) => {
     const needle = normalizeText(marker);
     const markerComesFromQuery = queryTerms.some(
       (term) => term.length >= 2 && (term.includes(needle) || needle.includes(term)),
     );
-    const present = /[a-z0-9]/i.test(needle) ? carriesTerm(low, needle) : low.includes(needle);
+    const present = /[a-z0-9]/i.test(needle)
+      ? carriesTermNormalized(low, needle)
+      : low.includes(needle);
     return !markerComesFromQuery && present;
   });
 }
@@ -272,10 +298,15 @@ function bestMatchingLine(
 ): { text: string; hits: number } | null {
   let best: { text: string; hits: number } | null = null;
   for (const line of nonEmptyLines(text)) {
-    if (isPlumbingLine(line) || isNoMemory(line) || isStructuralLine(line)) {
+    const low = normalizeText(line);
+    if (
+      isPlumbingLow(low) ||
+      includesAnyNormalized(low, EMPTY_MEMORY_PHRASES) ||
+      isStructuralLine(line)
+    ) {
       continue;
     }
-    const hits = termHits(line, terms);
+    const hits = termHitsNormalized(low, terms);
     if (hits > 0 && (!best || hits > best.hits)) {
       best = { text: line, hits };
     }
@@ -283,9 +314,14 @@ function bestMatchingLine(
   if (best || !allowNoMatch) {
     return best;
   }
-  const first = nonEmptyLines(text).find(
-    (line) => !isPlumbingLine(line) && !isNoMemory(line) && !isStructuralLine(line),
-  );
+  const first = nonEmptyLines(text).find((line) => {
+    const low = normalizeText(line);
+    return (
+      !isPlumbingLow(low) &&
+      !includesAnyNormalized(low, EMPTY_MEMORY_PHRASES) &&
+      !isStructuralLine(line)
+    );
+  });
   return first ? { text: first, hits: 0 } : null;
 }
 
@@ -296,13 +332,18 @@ function bestDecisionLine(
 ): { text: string; hits: number } | null {
   let best: { text: string; hits: number } | null = null;
   for (const line of nonEmptyLines(text)) {
-    if (isPlumbingLine(line) || isNoMemory(line) || isStructuralLine(line)) {
+    const low = normalizeText(line);
+    if (
+      isPlumbingLow(low) ||
+      includesAnyNormalized(low, EMPTY_MEMORY_PHRASES) ||
+      isStructuralLine(line)
+    ) {
       continue;
     }
-    if (!carriesDecision(line, terms)) {
+    if (!carriesDecisionNormalized(low, terms)) {
       continue;
     }
-    const hits = termHits(line, terms);
+    const hits = termHitsNormalized(low, terms);
     if (hits > 0 || allowNoMatch) {
       if (!best || hits > best.hits) {
         best = { text: line, hits };
@@ -335,7 +376,17 @@ function findProblems(
 ): SelectedQuote[] {
   const problems: SelectedQuote[] = [];
   messages.forEach((message, index) => {
-    if (message.role !== "user" || isPlumbingMessage(message) || isNoMemory(message.text)) {
+    if (message.role !== "user") {
+      return;
+    }
+    // A line can only hit when its message hits, so skip the line scan for the
+    // messages that carry no query term at all. A fully plumbing message has
+    // no hit line by construction, so the scan below already rejects it.
+    const low = normalizeText(message.text);
+    if (termHitsNormalized(low, terms) === 0) {
+      return;
+    }
+    if (includesAnyNormalized(low, EMPTY_MEMORY_PHRASES)) {
       return;
     }
     const line = bestMatchingLine(message.text, terms);
@@ -435,32 +486,56 @@ function quoteFingerprint(text: string): Set<string> {
   return new Set(tokenize(text));
 }
 
-function nearDuplicate(
-  candidate: readonly RecallMessage[],
-  prior: readonly RecallMessage[][],
-  threshold: number,
-): boolean {
+function messageWords(
+  message: RecallMessage,
+  cache: Map<RecallMessage, ReadonlySet<string>>,
+): ReadonlySet<string> {
+  const cached = cache.get(message);
+  if (cached) {
+    return cached;
+  }
+  // Prefer the token set written by the indexer; tokenizing a multi-MB
+  // transcript again is the dominant cost of a recall.
+  const tokens =
+    message.tokens && message.tokens.length > 0
+      ? message.tokens
+      : tokenize(message.text);
+  const words = new Set(tokens);
+  cache.set(message, words);
+  return words;
+}
+
+function candidateWords(
+  messages: readonly RecallMessage[],
+  cache: Map<RecallMessage, ReadonlySet<string>>,
+): ReadonlySet<string> {
   const words = new Set<string>();
-  for (const message of candidate) {
+  for (const message of messages) {
     if (message.role !== "user" && message.role !== "assistant") {
       continue;
     }
-    for (const token of tokenize(message.text)) {
+    for (const token of messageWords(message, cache)) {
       words.add(token);
     }
   }
+  return words;
+}
+
+function nearDuplicate(
+  words: ReadonlySet<string>,
+  prior: readonly ReadonlySet<string>[],
+  threshold: number,
+): boolean {
   if (words.size === 0) {
     return false;
   }
-  for (const previous of prior) {
-    const previousWords = new Set<string>();
-    for (const message of previous) {
-      if (message.role !== "user" && message.role !== "assistant") {
-        continue;
-      }
-      for (const token of tokenize(message.text)) {
-        previousWords.add(token);
-      }
+  for (const previousWords of prior) {
+    // Jaccard is bounded by the smaller/larger size ratio, so sessions of very
+    // different token counts can never reach the threshold.
+    const smaller = Math.min(words.size, previousWords.size);
+    const larger = Math.max(words.size, previousWords.size);
+    if (smaller < larger * threshold) {
+      continue;
     }
     let intersection = 0;
     for (const word of words) {
@@ -650,7 +725,8 @@ export function buildRecall(
   const maxBytes = options.maxBytes ?? (options.aggressive ? 4_096 : 2_048);
   const duplicateThreshold = options.nearDuplicateThreshold ?? 0.8;
   const policy = conclusionPolicy(candidates.length);
-  const acceptedMessages: RecallMessage[][] = [];
+  const wordCache = new Map<RecallMessage, ReadonlySet<string>>();
+  const acceptedWords: ReadonlySet<string>[] = [];
   const blocks: RecallBlock[] = [];
 
   for (const candidate of candidates) {
@@ -661,9 +737,12 @@ export function buildRecall(
       candidate.current ||
       excluded.has(candidate.sid) ||
       (candidate.lineageSids ?? []).some((sid) => excluded.has(sid)) ||
-      isHarnessSelfTest(candidate.messages) ||
-      nearDuplicate(candidate.messages, acceptedMessages, duplicateThreshold)
+      isHarnessSelfTest(candidate.messages)
     ) {
+      continue;
+    }
+    const words = candidateWords(candidate.messages, wordCache);
+    if (nearDuplicate(words, acceptedWords, duplicateThreshold)) {
       continue;
     }
 
@@ -674,10 +753,11 @@ export function buildRecall(
     );
     const anchors = options.anchorTerms ?? [];
     const anchorNeed = Math.max(1, options.anchorNeed ?? anchors.length);
+    const possibleProblems = findProblems(conversation, terms);
     let problem: SelectedQuote | null = null;
     let conclusions: SelectedQuote[] = [];
     let fittedConclusions: RecallQuote[] = [];
-    for (const possible of findProblems(conversation, terms)) {
+    for (const possible of possibleProblems) {
       if (
         anchors.length > 0 &&
         termHits(conversation[possible.messageIndex]!.text, anchors) <
@@ -734,7 +814,7 @@ export function buildRecall(
       conclusion: fittedConclusions,
       evidence,
     });
-    acceptedMessages.push(candidate.messages);
+    acceptedWords.push(words);
   }
 
   removeEvidenceToFit(blocks, maxBytes);
